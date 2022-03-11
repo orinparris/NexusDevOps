@@ -1,7 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace NexusDevOpsTests
+namespace NexusDevopsTests
 {
     [TestClass]
     public class UnitTest1
@@ -12,6 +11,7 @@ namespace NexusDevOpsTests
             var a = 5;
             var b = 6;
             var c = a+b;
+
             Assert.IsTrue(c==11);
         }
     }
